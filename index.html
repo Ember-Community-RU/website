@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1.0, width=device-width">
+  <title>Российское сообщество разработчиков Ember.js</title>
+
+  <meta name="description" content="Российское сообщество разработчиков Ember.js. Видео уроки Ember.js, статьи на русском, бесплатное обучение фреймворку Ember.js" />
+  <meta name="keywords" content="ember.js, на русском, видеоуроки, статьи, обучение, энтузиасты" />
+
+  <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      h1 {
+        font-family: Lato;
+        font-weight: 100;
+        color: #fff;
+        font-size: 60px;
+      }
+      video {
+        width: auto;
+        min-width: 100%;
+        height: auto;
+        min-height: 100%;
+      }
+      .hero {
+        height: 100vh;
+        width: 100%;
+      }
+      .logo {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100%;
+          width: 100%;
+          margin: 0 auto;
+          text-align: center;
+          max-width: 780px;
+      }
+      .bold {
+        font-family: Bree Serif;
+        font-weight: 700;
+      }
+
+      .background-video {
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          display: -ms-flexbox;
+          display: flex;
+          overflow: hidden;
+          -ms-flex-pack: center;
+          -ms-flex-align: center;
+          justify-content: center;
+          align-items: center;
+          z-index: -1;
+        }
+      .background-video__overlay {
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          background-color: rgba(11,14,41,.6);
+         z-index: -1;
+      }
+  </style>
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,500,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Bree Serif:100,300,400,500,700" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+    <div class="hero">
+      <div class="background-video offers__video">
+          <video autoplay loop poster="assets/Golden_bridge.jpg">
+            <source src="assets/Golden_bridge.mp4" type="video/mp4">
+            <source src="assets/Golden_bridge.webm" type="video/webm">
+          </video>
+      </div>
+      <div class="background-video__overlay"></div>
+      <div class="logo">
+        <h1>Российское сообщество разработчиков Ember.js</h1>
+      </div>
+    </div>
+</body>
+</html>
